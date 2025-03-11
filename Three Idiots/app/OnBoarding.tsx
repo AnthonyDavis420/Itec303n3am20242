@@ -22,9 +22,9 @@ const slides = [
     image: require("../assets/images/Organized.svg"),
   },
 ];
-{
-  /* GPT HAHAHAHHAAH */
-}
+
+
+
 export default function OnBoarding() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const router = useRouter();
@@ -36,7 +36,7 @@ export default function OnBoarding() {
       router.replace("/login");
     }
   };
-  /* GPT HAHAHAHHAAH */
+ 
   return (
     <View style={styles.container}>
       <Text style={styles.title}>{slides[currentSlide].title}</Text>
